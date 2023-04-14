@@ -2,8 +2,8 @@ import DtButton from "./components/common/DtButton";
 
 function App() {
   return (
-   <div className="m-24">
-    <DtButton buttonText={"Contact us"} />
+   <div>
+    Welcome to digital tech pioneers :)
    </div>
   );
 }
