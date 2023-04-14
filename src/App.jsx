@@ -1,10 +1,11 @@
-function App() {
+import DtButton from "./components/common/DtButton";
 
+function App() {
   return (
-    <div className="text-[30px] text-center text-blue-300 w-screen h-screen">
-     Welcome to the digital tech pioneers :)
-    </div>
-  )
+   <div className="m-24">
+    <DtButton buttonText={"Contact us"} />
+   </div>
+  );
 }
 
-export default App
+export default App;

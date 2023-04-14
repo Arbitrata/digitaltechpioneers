@@ -2,11 +2,20 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx}"
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
+
   theme: {
-    extend: {},
+    colors: {
+      "dt-green": "#08D3BB",
+      "dt-blue": "#1090CB",
+      "dt-white": "#ffffff",
+    },
+    extend: {
+      fontFamily: {
+        'poppins': ['Poppins'],
+     }
+    },
   },
   plugins: [],
-}
-
+};
