@@ -8,12 +8,16 @@ export default {
   theme: {
     colors: {
       "dt-green": "#08D3BB",
-      "dt-blue": "#1090CB",
       "dt-white": "#ffffff",
+      "dt-black": "#000000",
+      "dt-pink": "#FFE5DA",
+      "dt-sgreen": "#5FC300",
+      "dt-pap": "#4628A4",
+      "dt-blue": "#1090CB",
     },
     extend: {
       fontFamily: {
-        'poppins': ['Poppins'],
+        'poppins': ['poppins'],
      }
     },
   },
