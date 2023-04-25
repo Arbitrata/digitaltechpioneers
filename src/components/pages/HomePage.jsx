@@ -15,14 +15,14 @@ export const HeroSection = () => {
   return (
     <div className="lg:h-[660.44px] h-fit lg:w-full w-full lg:px-[80px] px-[33px] lg:pb-0 pb-10 bg-dt-blue bg-opacity-10">
       <div className="lg:flex block w-full h-full">
-        <div className="lg:w-[50%] w-[100%]  h-full block text-left lg:pl-[29.33px] pl-0">
+        <div className="lg:w-[50%] w-[100%] lg:mr-[70px]  h-full block text-left lg:pl-[29.33px] pl-0">
           <div className="lg:w-[560px] w-full lg:text-[35.56px] mx-auto font-poppins text-dt-black lg:mt-[80px] lg:pt-0 pt-[80px] font-semibold ">
             Designing
             <span className="text-dt-blue"> Websites </span>
             that bring your <span className="text-dt-blue"> vision </span> to
             life.
           </div>
-          <div className="text-dt-black text-[14.22px] lg:pr-6 pr-0 lg:mt-[80px] mt-10 leading-[29.06px] lg:w-[544.89px] w-full">
+          <div className="text-dt-black text-[16.22px] lg:pr-6 pr-0 lg:mt-[80px] mt-10 leading-[29.06px] lg:w-[544.89px] w-full">
             Did you know that the general average time spent on a website is 53
             seconds? First impression matters and @Digital Tech pioneers we help
             create that great first impression by creating a great digital
@@ -44,8 +44,8 @@ export const HeroSection = () => {
         <div className="lg:w-[50%] w-full lg:static h-full lg:pb-[100px] lg:grid place-content-center">
           <div className="lg:w-[400px] w-[100%] lg:visible invisible absolute z-10 rounded-full right-2 top-[150px] lg:h-[400px] bg-gradient-to-b via-dt-white from-dt-pink to-dt-pink"></div>
           <img
-            src="Group 6.png"
-            className="lg:w-full object-left z-30 w-auto lg:h-full h-[100%]"
+            src="h.svg"
+            className="lg:w-full transform -scale-x-100 object-left z-30 w-auto lg:h-full h-[100%]"
           />
         </div>
       </div>
@@ -66,7 +66,7 @@ export const BudgeSection = () => {
         />
         <div className="font-medium">
           <div className="text-[17.7778px]">WEB DEVELOPMENT</div>
-          <div className="text-[13.33px] text-dt-black text-opacity-50">
+          <div className="text-[14.33px] text-dt-black text-opacity-50">
             Have your site online
           </div>
         </div>
@@ -81,7 +81,7 @@ export const BudgeSection = () => {
         />
         <div className="font-medium">
           <div className="text-[17.7778px]">SEO</div>
-          <div className="text-[13.33px] text-dt-black text-opacity-50">
+          <div className="text-[14.33px] text-dt-black text-opacity-50">
             Appear more on serach
           </div>
         </div>
@@ -96,7 +96,7 @@ export const BudgeSection = () => {
         />
         <div className="font-medium">
           <div className="text-[17.7778px]">UI/UX DESIGN</div>
-          <div className="text-[13.33px] text-dt-black text-opacity-50">
+          <div className="text-[14.33px] text-dt-black text-opacity-50">
             Create professional Mockups
           </div>
         </div>
@@ -111,7 +111,7 @@ export const BudgeSection = () => {
         />
         <div className="font-medium">
           <div className="text-[17.7778px]">MOBILE APPLICATION</div>
-          <div className="text-[13.33px] text-dt-black text-opacity-50">
+          <div className="text-[14.33px] text-dt-black text-opacity-50">
             Have your mobile App online
           </div>
         </div>
@@ -127,7 +127,7 @@ export const QuickSection = () => {
         <h1 className="text-[29.33px] mb-[25.78px]">
           How we help you build and maintain digital presence
         </h1>
-        <span className="text-dt-black text-opacity-50 lg:w-[615.11px] w-full">
+        <span className="text-dt-black text-opacity-50 text-[16.333px] lg:w-[615.11px] w-full">
           we are a full-service web design agency that creates beautiful,
           user-friendly websites for businesses of all sizes ensuring you make
           the best first impression this is how...
@@ -146,7 +146,7 @@ export const QuickSection = () => {
               />
               <div className="font-medium">
                 <div className="text-[15.1111px]">New to Digital space?</div>
-                <div className="text-[13.33px] text-dt-black text-opacity-50">
+                <div className="text-[14.33px] text-dt-black text-opacity-50">
                   Worry no more....
                 </div>
               </div>
@@ -156,7 +156,7 @@ export const QuickSection = () => {
               <span className="text-dt-blue"> site online? </span> or looking to
               explore digital space?
             </div>
-            <div className="text-dt-black text-opacity-50 text-[14.2222px] pr-6 lg:mt-[29.33px] mt-10 leading-[24.18px] lg:w-[423.11px] w-full">
+            <div className="text-dt-black text-opacity-50 text-[16.2222px] pr-6 lg:mt-[29.33px] mt-10 leading-[24.18px] lg:w-[423.11px] w-full">
               Our team will help you in the design and deployment of your site
               that will suit your needs, company culture and ensuring that the
               customers visiting your site will have the best experience
@@ -181,7 +181,7 @@ export const QuickSection = () => {
               />
               <div className="font-medium">
                 <div className="text-[15.1111px]">Looking for an upgrade?</div>
-                <div className="text-[13.33px] text-dt-black text-opacity-50">
+                <div className="text-[14.33px] text-dt-black text-opacity-50">
                   We gat you
                 </div>
               </div>
@@ -190,7 +190,7 @@ export const QuickSection = () => {
               <span className="text-dt-blue"> Looking </span> to get an upgrade
               for your site?
             </div>
-            <div className="text-dt-black text-opacity-50 text-[14.2222px] lg:mt-[29.33px] mt-10 leading-[24.18px] lg:w-[423.11px] w-full">
+            <div className="text-dt-black text-opacity-50 text-[16.2222px] lg:mt-[29.33px] mt-10 leading-[24.18px] lg:w-[423.11px] w-full">
               our team is comprised of experienced designers and developers who
               will ensure that your site gets that exclusive touch and an
               elegant finish to ensure that the customers have the best
@@ -210,7 +210,7 @@ export const QuickSection = () => {
               />
               <div className="font-medium">
                 <div className="text-[15.1111px]">Still not decided yet?</div>
-                <div className="text-[13.33px] text-dt-black text-opacity-50">
+                <div className="text-[14.33px] text-dt-black text-opacity-50">
                   Worry not ...
                 </div>
               </div>
@@ -219,7 +219,7 @@ export const QuickSection = () => {
               Still hard figuring out what is
               <span className="text-dt-blue"> best for You? </span>
             </div>
-            <div className="text-dt-black text-opacity-50 text-[14.2222px] pr-6 lg:mt-[29.33px] mt-10 leading-[24.18px] lg:w-[423.11px] w-full">
+            <div className="text-dt-black text-opacity-50 text-[16.2222px] pr-6 lg:mt-[29.33px] mt-10 leading-[24.18px] lg:w-[423.11px] w-full">
               Our team will ensure you get to find the best solution that suits
               your company and user needs to ensure delivery of maximum value to
               your organisation
@@ -244,7 +244,7 @@ export const Calendly = () => {
 
 export const BookingSection = () => {
   return (
-    <div className="lg:w-full w-full lg:px-[140px] px-[33px] mb-10 h-fit">
+    <div className="lg:w-full w-full lg:px-[10px] px-[33px] mb-10 h-fit">
       <div className="inline-flex items-center lg:justify-center w-full">
         <hr className="w-[70%] lg:visible invisible h-px my-8 bg-dt-blue border-0" />
         <span className="absolute px-3 font-medium text-dt-black bg-dt-white -translate-x-1/2 bg-white left-1/2">

@@ -9,7 +9,7 @@ export const DTFooter = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0 w-[30%]">
               <a href="/" className="block items-center">
-                  <img src="dt logo2.png" className="w-[150px] mr-3" alt="Digital Tech Pioneers Logo" />
+                  <img src="logo.jpeg" className="w-[150px] mr-3" alt="Digital Tech Pioneers Logo" />
                   <span className="self-center text-[14.22px]">
                   We are comitted to creating the best online experience for customers visiting your site
                   </span>
