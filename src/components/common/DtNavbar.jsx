@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { BiMenu, BiX } from "react-icons/bi";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import DtButton from "./DtButton";
 
 const DtNavbar = ({}) => {
@@ -31,7 +31,7 @@ const DtNavbar = ({}) => {
   return (
     <nav className="h-[90.89px] lg:px-0 px-[33px] fixed w-full z-50 lg:bg-dt-white bg-[#e7f4fa] lg:border-b border-opacity-20 border-b-dt-black items-center flex justify-between">
       <div className="w-full h-full basis-1/4 grid place-content-center">
-        <img src="./dt logo2.png" className="lg:w-[200px] w-auto" />
+        <img src="logo.jpeg" className="lg:w-[160px] w-auto" />
       </div>
       <ul
         className={`md:flex basis-1/2 lg:w-full lg:h-full w-[50%] lg:bg-dt-white bg-[#e7f4fa]  lg:shadow-none shadow shadow-dt-white grid place-content-center transition-all duration-200 md:static absolute lg:justify-end items-center ${
@@ -57,7 +57,9 @@ const DtNavbar = ({}) => {
         ))}
       </ul>
       <div className="basis-1/4 w-full h-full grid place-content-center lg:visible md:visible invisible">
-        <DtButton buttonText={"Contact us"} buttonStyle={"text-dt-white"} />
+        <Link to={"contactus"}>
+          <DtButton buttonText={"Contact us"} buttonStyle={"text-dt-white"} />
+        </Link>
       </div>
       <button
         onClick={() => setOpen(!open)}

@@ -8,6 +8,7 @@ import AboutUsPage from "./components/pages/AboutUsPage";
 import ServicesPage from "./components/pages/ServicesPage";
 import BlogPage from "./components/pages/BlogPage";
 import { DTFooter } from "./components/common/DTFooter";
+import { ContactUsPage } from "./components/pages/ContactUsPage";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route exact path="/aboutus" element={<AboutUsPage />} />
         <Route exact path="/services" element={<ServicesPage />} />
         <Route exact path="/blog" element={<BlogPage />} />
+        <Route exact path="/contactus" element={<ContactUsPage />} />
       </Routes>
       <DTFooter />
     </Router>
