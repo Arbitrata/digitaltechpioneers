@@ -13,7 +13,9 @@ import {
 
 export const HeroSection = () => {
   return (
-    <div className="lg:h-[660.44px] h-fit lg:w-full w-full lg:px-[80px] px-[33px] lg:pb-0 pb-10 bg-dt-blue bg-opacity-10">
+    <div className="lg:h-[660.44px] overflow-x-hidden h-fit lg:w-full w-full lg:zrelative lg:px-[80px] px-[33px] lg:pb-0 pb-10 bg-dt-blue bg-opacity-10">
+      {/* <div className="w-[100px] h-[300px] absolute -right-20 bottom-0 bg-dt-blue rounded-full skew-y-6"></div> */}
+      <div className="lg:w-[300px] w-[100%] lg:visible invisible absolute z-10 rounded-full right-6 top-[150px] lg:h-[300px] bg-gradient-to-b via-dt-white from-dt-pink to-dt-pink"></div>
       <div className="lg:flex block w-full h-full">
         <div className="lg:w-[50%] w-[100%] lg:mr-[70px]  h-full block text-left lg:pl-[29.33px] pl-0">
           <div className="lg:w-[560px] w-full lg:text-[35.56px] mx-auto font-poppins text-dt-black lg:mt-[80px] lg:pt-0 pt-[80px] font-semibold ">
@@ -42,7 +44,6 @@ export const HeroSection = () => {
           </div>
         </div>
         <div className="lg:w-[50%] w-full lg:static h-full lg:pb-[100px] lg:grid place-content-center">
-          <div className="lg:w-[400px] w-[100%] lg:visible invisible absolute z-10 rounded-full right-2 top-[150px] lg:h-[400px] bg-gradient-to-b via-dt-white from-dt-pink to-dt-pink"></div>
           <img
             src="h.svg"
             className="lg:w-full transform -scale-x-100 object-left z-30 w-auto lg:h-full h-[100%]"
