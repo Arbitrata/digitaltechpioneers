@@ -99,7 +99,7 @@ export const ContactUsPage = () => {
 
           <div className="h-full w-full border-r items-center gap-x-4 text-[17.78px] flex place-content-center">
             <BiPhoneCall size={25} />
-            +254 2873878482
+            +254 700462499
           </div>
 
           <div className="h-full w-full items-center gap-x-4 text-[17.78px] flex place-content-center">
