@@ -366,7 +366,7 @@ export default function HomePage() {
       <hr className="w-full h-[2x] lg:mb-[105px] opacity-20" />
       <QuickSection />
       <BookingSection />
-      <OurPartners />
+      {/* <OurPartners /> */}
       <div className="h-[120px]"></div>
       <CallToAction />
     </div>
