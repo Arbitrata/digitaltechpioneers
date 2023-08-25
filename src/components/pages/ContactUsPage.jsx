@@ -14,40 +14,38 @@ export const ContactUsForm = () => {
 
       <div className="w-full mt-[70px] grid place-content-center">
         <form className="space-y-4 w-[596.44px]">
-
           <div className="grid grid-cols-2 gap-6">
-          <div>
-                <label className="block mb-1 text-sm font-medium">
-              Fisrt name
-            </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              className="outline-none h-[49.78px] placeholder:stroke-dt-green text-sm rounded-lg block w-full p-2.5"
-              placeholder="firstname"
-              required
-            />
+            <div>
+              <label className="block mb-1 text-sm font-medium">
+                Fisrt name
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                className="outline-none h-[49.78px] placeholder:stroke-dt-green text-sm rounded-lg block w-full p-2.5"
+                placeholder="firstname"
+                required
+              />
             </div>
 
             <div>
-            <label className="block mb-1 text-sm font-medium">
-              Last name
-            </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              className="outline-none h-[49.78px] placeholder:stroke-dt-green text-sm rounded-lg block w-full p-2.5"
-              placeholder="lastname"
-              required
-            />
+              <label className="block mb-1 text-sm font-medium">
+                Last name
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                className="outline-none h-[49.78px] placeholder:stroke-dt-green text-sm rounded-lg block w-full p-2.5"
+                placeholder="lastname"
+                required
+              />
             </div>
-            
           </div>
 
           <div>
-          <label className="block mb-1 text-sm font-medium">
+            <label className="block mb-1 text-sm font-medium">
               Email address
             </label>
             <input
@@ -83,37 +81,19 @@ export const ContactUsForm = () => {
 };
 
 export const ContactUsPage = () => {
+  const iconStyle =
+    "text-dt-black p-3 rounded-full shadow shadow-dt-black hover:shadow-dt-blue";
   return (
     <div>
-      <div className="block h-fit w-full relative top-[100px] ">
-        <div className="grid grid-cols-3 h-[90.67px] items-center mx-[10%] mb-[74px]">
+      <div className="block h-fit w-full relative top-[100px] mb-[139.33px]">
+        <div className="grid grid-cols-3 h-[90.67px] pt-10 items-center mx-[10%] mb-[74px]">
           <div className="inline-block h-full w-full border-r ">
             <h1 className="p-3">Follow us</h1>
             <div className="flex gap-x-6">
-              <DtIcon
-                icon={<FiFacebook size={20} />}
-                iconStyle={
-                  "shadow-md p-1 hover:bg-dt-blue hover:text-dt-white hover:translate-x-1 scale-110 rounded-full"
-                }
-              />
-              <DtIcon
-                icon={<FiTwitter size={20} />}
-                iconStyle={
-                  "shadow-md p-1 hover:bg-dt-blue hover:text-dt-white hover:translate-x-1 scale-110 rounded-full"
-                }
-              />
-              <DtIcon
-                icon={<FiInstagram size={20} />}
-                iconStyle={
-                  "shadow-md p-1 hover:bg-dt-blue hover:text-dt-white hover:translate-x-1 scale-110 rounded-full"
-                }
-              />
-              <DtIcon
-                icon={<FiLinkedin size={20} />}
-                iconStyle={
-                  "shadow-md p-1 hover:bg-dt-blue hover:text-dt-white hover:translate-x-1 scale-110 rounded-full"
-                }
-              />
+              <DtIcon icon={<FiFacebook size={20} />} iconStyle={iconStyle} />
+              <DtIcon icon={<FiTwitter size={20} />} iconStyle={iconStyle} />
+              <DtIcon icon={<FiInstagram size={20} />} iconStyle={iconStyle} />
+              <DtIcon icon={<FiLinkedin size={20} />} iconStyle={iconStyle} />
             </div>
           </div>
 
@@ -124,7 +104,7 @@ export const ContactUsPage = () => {
 
           <div className="h-full w-full items-center gap-x-4 text-[17.78px] flex place-content-center">
             <BiLocationPlus size={25} />
-            Weteithie
+            Nairobi, Kenya
           </div>
         </div>
 
