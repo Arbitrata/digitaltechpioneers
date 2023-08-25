@@ -12,7 +12,7 @@ export default function DtIcon({
   borderStyle,
 }) {
   return (
-    <Link to={to} onClick={onClickIconHandler}>
+    <a href={to} onClick={onClickIconHandler}>
       <div className={`${badgePresent && "flex mr-[-13px]"} cursor-pointer `}>
         <div
           className={`text-dt-darkgreen grid place-items-center ${
@@ -33,6 +33,6 @@ export default function DtIcon({
           </div>
         )}
       </div>
-    </Link>
+    </a>
   );
 }
